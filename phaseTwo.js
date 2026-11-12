@@ -42,7 +42,7 @@ function getAllProducts(dbPassword, connectionSpeed){
     return promise;
 }
 
-getAllProducts("Prabodha1234", "25").then(
+getAllProducts("Prabodha", "25").then(
     (result)=>{
         console.log(result)
         console.log("Product fetched successfully")
